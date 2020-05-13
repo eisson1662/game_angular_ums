@@ -1,0 +1,95 @@
+// table {
+//   width: 100%;
+// }
+.example-container1 {
+  height: 800px;
+  overflow: auto;
+}
+// .mat-sort-header-container {
+//   align-items: center;
+// }
+// .my-mat-cell,
+// .my-mat-header-cell {
+//   flex: 0 0 30%;
+// }
+
+// mat-cell:nth-child(1),
+// mat-header-cell:nth-child(1) {
+//   flex: 0 0 30%;
+// }
+
+// mat-cell:nth-child(5),
+// mat-header-cell:nth-child(5) {
+//   flex: 0 0 30%;
+// }
+
+// .mat-table__wrapper .mat-table {
+//   min-width: auto !important;
+//   width: 100% !important;
+// }
+
+.mat-header-row {
+  width: 100% !important;
+}
+
+// .mat-row {
+//   width: 100%;
+// }
+
+.mat-column {
+  flex: 0 0 25% !important;
+  min-width: 104px !important;
+}
+// .customWidthClass{
+//    flex: 0 0 75px;
+// }
+
+// .mat-cell:nth-child(1),
+// .mat-header-cell:nth-child(1) {
+//   flex: 80%;
+// }
+// .mat-cell:nth-child(5),
+// .mat-header-cell:nth-child(5) {
+//   flex: 80%;
+// }
+// .mat-header-cell:first-child,
+// .mat-cell:first-child {
+//   flex: 80%;
+// }
+
+// .mat-column-stash2 {
+//   flex: 0 0 300px;
+// }
+
+* {
+  transition: none;
+}
+.popover {
+  pointer-events: none !important;
+}
+.tooltip {
+  pointer-events: none !important;
+}
+
+// .mat-column {
+//   width: 100px;
+// }
+::ng-deep .tooltip-inner {
+  background-color: #000000;
+  // opacity: 0.6;
+}
+
+table {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-width: 500px;
+}
+
+th.mat-header-cell {
+  text-align: left;
+  max-width: 300px;
+}
+.smaller {
+  width: 1%;
+}
